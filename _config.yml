@@ -1,0 +1,26 @@
+title: Hodl.farm # The title of the blog
+author: Hodl.farm
+email: hello@hodl.farm # your email shown in the footer
+url: https://hodl.farm # this is your site's root address.
+description: > # this means to ignore newlines until "show_excerpts:"
+  Fertile ground for your cryptos.
+favicon: "./favicon.ico" # set the favicon of the site 
+
+show_excerpts: false # set to true to show excerpts on the homepage
+  
+# Moving date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+moving:
+  avatar_url: "assets/img/hodlfarmsheep.png" # avatar in about page
+  about_you: Fertile ground for your cryptos.
+  date_format: "%b %d" # date format of posts in home page
+  back_to: "Home" # In the post page, you have a back button above the title, you can custom the text by yourself.
+
+  social_links:
+# Build settings
+remote_theme: hodl-dot-farm/moving
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
