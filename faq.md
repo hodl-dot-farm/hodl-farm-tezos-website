@@ -51,9 +51,9 @@ Yes. To our knowledge, we are the first Babylon-native baker.
 
 ## What are the terms of your Super Launch Discount ?
 
-Tezos baking and endorsing rights depends on how many rolls a baker has. A roll amounts to 8000 tezzies. Going live, our baker has a little over one roll in own and delegated funds. We will give to our first delegators a low fee for life !
+Tezos baking and endorsing rights depends on how many rolls a baker has. A roll amounts to 8000 tezzies. On our launch day, our baker has one roll in own funds. We will give our first delegators a low fee for life !
 
-The breakdown of fees are:
+Here is the fee you will be getting by taking advantage of the Super Launch Discount:
 
 * up to 2 rools (8,000 XTZ to 16,000 XTZ of delegated  funds) : a 5% fee until you stop delegating to us
 * from 2 to 3 rolls (16,000 XTZ to 24,000 XTZ): a 6.5% fee until you stop delegating to us

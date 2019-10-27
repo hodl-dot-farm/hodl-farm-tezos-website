@@ -5,7 +5,7 @@ layout: about
 <script src="{{ base.url | prepend: site.url }}/assets/js/clipboard-polyfill.promise.js"></script>
 We are a fast, reliable and secure Tezos delegation service with a low intro fee and quick payouts.
 
-<span style="color:#bf0000;font-weight:bold;">Super Launch Discount ! Contribute to our first five rolls and get a fee as low as 5% for life ! </span> [See conditions](faq#what-are-the-terms-of-your-super-launch-discount-).
+<span style="color:#bf0000;font-weight:bold;">Super Launch Discount ! Contribute to our first five rolls and get a fee as low as 5% for life ! </span> [See conditions](faq.html#what-are-the-terms-of-your-super-launch-discount-).
 
 ## 1. Set your delegate to Hodl.farm
 
@@ -14,7 +14,7 @@ Use your wallet to set your delegate to the Hodl.farm address.
 `tz1gg5bjopPcr9agjamyu9BbXKLibNc2rbAq`  <a href="#!" onclick="clipboard.writeText('tz1gg5bjopPcr9agjamyu9BbXKLibNc2rbAq');">⧉</a>
 {: style="color:gray; font-size: 140%; text-align: center;"}
 
-Do not send funds to this address! [Learn more](faq#what-is-delegation-).
+Do not send funds to this address! [Learn more](faq.html#what-is-delegation-).
 
 ## 2. Wait for one cycle
 
@@ -56,6 +56,6 @@ button {
 
 ## Learn more
 
-[Frequently asked questions](faq)
+[Frequently asked questions](faq.html)
 
 [See our account on Tezblock.io block explorer](https://tezblock.io/account/tz1gg5bjopPcr9agjamyu9BbXKLibNc2rbAq)
