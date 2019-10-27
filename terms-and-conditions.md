@@ -52,6 +52,10 @@ Hodl.farm earns XTZ tokens by acting as a delegate. Hodl.farm may send payouts t
 
 By using Hodl.farm, you agree that any operation on the Tezos network is public due to the nature of distributed ledger. There is no implicit or explicit expectation of privacy by using our services.
 
+## COOKIES AND TRACKING
+
+There are no cookies or trackers, third-party or otherwise, on our website.
+
 ## VARIATION OF VALUE
 
 Cryptocurrency value fluctuate over time. By using our platform you agree that the value of your investment may decrease, potentially to zero. We are not responsible of any loss. Do not invest more than what you can afford to loose.
