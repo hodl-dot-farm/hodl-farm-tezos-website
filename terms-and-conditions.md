@@ -44,6 +44,7 @@ Hodl.farm strives to maintain high quality of service, however, due to the natur
 * network partition
 * baking/endorsing on the wrong chain
 * double endorsing and double baking
+* being overdelegated
 
 Hodl.farm earns XTZ tokens by acting as a delegate. Hodl.farm may send payouts to addresses that have deleagted to the Hodl.farm addresses. These payouts are performed "AS IS", without warranties or conditions of any kind. Their frequency or amount may vary over time, or cease altogether. Users are solely responsible of deciding whether the payout policy of Hodl.farm is appropriate and satisfies their expectations. Users can look at external services or the historical blockchain data to determine whether the performance of Hodl.farm is appropraite for their use case. Past performance is no guarantee of future results.
 
@@ -53,7 +54,7 @@ By using Hodl.farm, you agree that any operation on the Tezos network is public 
 
 ## VARIATION OF VALUE
 
-Cryptocurrency value fluctuate over time. By using our platform you agree that the value of your investment may decrease, potentially to zero. We are not responsible of any loss.
+Cryptocurrency value fluctuate over time. By using our platform you agree that the value of your investment may decrease, potentially to zero. We are not responsible of any loss. Do not invest more than what you can afford to loose.
 
 ## TERMINATION OF OPERATIONS
 

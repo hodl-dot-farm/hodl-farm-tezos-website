@@ -5,12 +5,16 @@ layout: about
 <script src="{{ base.url | prepend: site.url }}/assets/js/clipboard-polyfill.promise.js"></script>
 We provide a fast, reliable and secure Tezos delegation service with a low intro fee and quick payouts.
 
+Super Launch Discount ! Contribute to our first five rolls and get a fee as low as 5% for life ! See conditions.
+
 ## 1. Set your delegate to Hodl.farm
 
 Use your wallet to set your delegate to the Hodl.farm address.
 
 `tz1gg5bjopPcr9agjamyu9BbXKLibNc2rbAq`  <a href="#!" onclick="clipboard.writeText('tz1gg5bjopPcr9agjamyu9BbXKLibNc2rbAq');">⧉</a>
 {: style="color:gray; font-size: 140%; text-align: center;"}
+
+Do not send funds to this address! Learn more about delegating.
 
 ## 2. Wait for one cycle
 
@@ -24,7 +28,7 @@ Most delegation services make you wait 5 cycles. Why wait two weeks ? **Use hodl
 
 ## 3. Check your contribution
 
-Enter your Tezos KT address here: 
+Enter your Tezos address (starting with tz) here:
 
 <input type="text" id="tezos_address" rows="800" placeholder="Your KT address">
 <button onclick="window.location='payouts/'+getInputValue()+'.html';">Go!</button>
