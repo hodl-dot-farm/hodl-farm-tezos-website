@@ -37,7 +37,7 @@ There are many ways. Please check these excellent guides on Medium:
 
 Our infrastructure resides on a distributed Google Kubernetes Engine cluster, with the exception of the signers, which are kept under our control.
 
-We pride ourselves in being the one and only fully auditable cloud baker ! All of our infrastructure is declared as code and open-source.
+We pride ourselves in being the one and only fully auditable cloud baker ! All of our infrastructure is declared as code and [open-source](https://github.com/hodl-dot-farm).
 
 We have built several layers of redundancy in the system, we have performed significant reliability and security due diligence. Our utmost concern is that you get your rewards on time.
 
