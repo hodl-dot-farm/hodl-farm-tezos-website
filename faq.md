@@ -10,11 +10,11 @@ Tezos is a cryptocurrency. Specifically, it is a [delegated proof-of-stake crypt
 
 ## What is delegation ?
 
-Delegation is like having your money in a savings account. By delegating to a baker like us, you help us bake more blocks and contribute to the health of the peer-to-peer network. Hodl.farm earns rewards for baking and endorsing blocks, and passes these rewards to you - minus a small fee.
+Delegation is like having your money in a savings account. By delegating to us, you help us bake and endorse more blocks. We earn rewards for that, and we pass them along to you - minus a small fee.
 
 If your XTZ are on Coinbase, Kraken or any cryptocurrency exchange, you will not be able to delegate to us. To delegate, your assets must be in a wallet that you control.
 
-Delegation is an operation on the blockchain that **does not change ownership** of your assets. When you delegate to us, you still own your coins ! Let that sink in: delegating and transfering are two different things. Please **do not send us your money** !
+Delegation is an operation on the blockchain that **does not change ownership** of your assets. When you delegate to us, you still own your coins ! Let that sink in: delegating is not the same as transfering. Please **do not send us your money** !
 
 ## Is delegation safe ?
 
@@ -51,21 +51,24 @@ Yes. To our knowledge, we are the first Babylon-native baker.
 
 ## What are the terms of your Super Launch Discount ?
 
-Tezos baking and endorsing rights depends on how many rolls a baker has. A roll amounts to 8000 tezzies. On our launch day, our baker has one roll in own funds. We will give our first delegators a low fee for life !
-
 Here is the fee you will be getting by taking advantage of the Super Launch Discount:
 
-* up to 2 rools (8,000 XTZ to 16,000 XTZ of delegated  funds) : a 5% fee until you stop delegating to us
-* from 2 to 3 rolls (16,000 XTZ to 24,000 XTZ): a 6.5% fee until you stop delegating to us
-* from 3 ro 5 rolls (24,000 XTZ to 40,000 XTZ): a 8% fee until you stop delegating to us
+* right now our staking balance is 8,000 XTZ (one roll)
+* if you are amongst our first delegators, you will get a **5% fee** until you stop delegating to us. This offer is valid until our staking balance (the total amount of XTZ delegated to us) reaches 2 rolls (16,000 XTZ of delegated funds).
+* if you delegate after we reach that first threshold, you get added to the next tier: until we reach 3 rolls of staking balance (up to 24,000 XTZ), you will get a **6.5% fee** until you stop delegating to us
+* if you delegate to us while our staking balance is between 3 and 5 rolls (24,000 XTZ to 40,000 XTZ), you will get a **8% fee** until you stop delegating to us
 
-Any delegate above 5 rolls will get our standard rate yet to be determined, and which may fluctuate over time.
+Any delegate after we reach 5 rolls will get our standard rate yet to be determined, and which may fluctuate over time.
+
+Tezos baking and endorsing rights depends on how many "rolls" a baker has. A roll amounts to 8000 tezzies.
+
+The more you delegate to us, the more rolls we have, and the more we can bake !
 
 To determine which roll your delegation is a part of, we rely on the amount at the time of delegation based on the blockchain history. See our [delegation page on tezblock](https://mvp.tezblock.io/account/tz1gg5bjopPcr9agjamyu9BbXKLibNc2rbAq).
 
-If you delegate more than one roll worth of XTZ, or if your delegation overlaps between two rolls, we will apply a rule of proportionality to determine your fee. For example, if we currently have exactly two rolls, and you delegate two rolls worth of XTZ (16,000 XTZ) at once to us, your fee will be 7.125% (6.5% for one roll and 8% for the other).
+If you delegate more than one roll worth of XTZ, or if your delegation overlaps between two rolls, we will apply a rule of proportionality to determine your fee. For example, if our staking balance is currently 2 rolls (16,000 XTZ), and you delegate two rolls worth of XTZ (16,000 XTZ) at once to us, your fee will be 7.125% (6.5% for one roll and 8% for the other).
 
-If you delegation brings us over the threshold of 5 rolls (40,000 XTZ), then we will apply a rule of proportionality between the discounted fee and the standard fee yet to be determined. The resulting fee will be lower than our standard rate yet to be determined, and may fluctuate over time.
+If you delegation brings us over the threshold of 5 rolls (40,000 XTZ), then we will apply a rule of proportionality between the discounted fee and the standard fee yet to be determined. The resulting fee will be lower than our standard rate, and may fluctuate over time. To lock in a fixed rate for life, **delegate now!**
 
 Once we reach the limit of 5 rolls, we will post the resulting addresses and their associated fees as an update on our website.
 
