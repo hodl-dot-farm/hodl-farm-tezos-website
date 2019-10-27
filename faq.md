@@ -12,21 +12,21 @@ Tezos is a cryptocurrency. Specifically, it is a [delegated proof-of-stake crypt
 
 Delegation is like having your money in a savings account. By delegating to a baker like us, you help us bake more blocks and contribute to the health of the peer-to-peer network. Hodl.farm earns rewards for baking and endorsing blocks, and passes these rewards to you - minus a small fee.
 
-If your XTZ are on Coinbase, Kraken or any online cryptocurrency exchange, you will not be able to delegate to us. To delegate, your assets must be in a wallet that you control.
+If your XTZ are on Coinbase, Kraken or any cryptocurrency exchange, you will not be able to delegate to us. To delegate, your assets must be in a wallet that you control.
+
+Delegation is an operation on the blockchain that **does not change ownership** of your assets. When you delegate to us, you still own your coins ! Let that sink in: delegating and transfering are two different things. Please **do not send us your money** !
 
 ## Is delegation safe ?
 
-Delegation is an operation on the blockchain that does not change ownership of your assets. When you delegate to us, you still own your coins ! Let that sink in: delegating and transfering are two different things. Please do not send us money !
-
-In order to delegate, you must be in control of your XTZ address, which means that you possess a private key which grants access to your assets. You must take precautions to protect your private key. Never send it to us, or anyone.
+In order to delegate, you must be in control of your XTZ address, which means that you own a private key which grants access to your assets. You must take precautions to protect your private key. Never send it to us, or anyone. We will never ask you for it.
 
 The most common protection is to use a hardware wallet such as Ledger or Trezor, or an offline, air-gapped device (running for example the AirGap app).
 
-Being your own bank gives you great power. With great power comes great responsibility. When in doubt, do not attempt to delegate to us, leave your assets in a cryptocurrency website such as Coinbase, rumor has it that they will pay interest soon !
+Being in control of your address is like being your own bank. It gives you great powers, which come with great responsibility. When in doubt, do not attempt to delegate to us, leave your assets in a cryptocurrency website such as Coinbase.
 
-For further reading, we recommend Ledger's [best practices when using a hardware wallet](https://www.ledger.com/academy/hardwarewallet/best-practices-when-using-a-hardware-wallet/).
+For further reading, we recommend Ledger's [best practices when using a hardware wallet](https://www.ledger.com/academy/hardwarewallet/best-practices-when-using-a-hardware-wallet/). Read and ask yourself whether you want to go down that route. If yes, then buckle up and read on.
 
-## How to delegate to us ?
+## How to delegate to you ?
 
 There are many ways. Please check these excellent guides on Medium:
 
@@ -35,15 +35,19 @@ There are many ways. Please check these excellent guides on Medium:
 
 ## How reliable are you ?
 
-We pride ourselves in being the one and only fully auditable cloud baker ! All our infrastructure resides on a distributed Google Kubernetes Engine cluster, with the exception of the signers, which are kept under our control.
+Our infrastructure resides on a distributed Google Kubernetes Engine cluster, with the exception of the signers, which are kept under our control.
 
-We have nothing to hide! All of our infrastructure is declared as code and open-source.
+We pride ourselves in being the one and only fully auditable cloud baker ! All of our infrastructure is declared as code and open-source.
 
-We have built several layers of redundancy in the system, we have performed significant reliability and security due diligence.
+We have built several layers of redundancy in the system, we have performed significant reliability and security due diligence. Our utmost concern is that you get your rewards on time.
 
 ## How can I contact you ?
 
-Please get in touch by email at hello@hodl.farm.
+Please get in touch by email at hello@hodl.farm. Telegram channel is coming soon.
+
+## Do you support the Babylon Tezos update ?
+
+Yes. To our knowledge, we are the first Babylon-native baker.
 
 ## What are the terms of your Super Launch Discount ?
 
