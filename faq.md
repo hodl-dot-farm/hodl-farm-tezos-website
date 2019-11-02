@@ -70,6 +70,8 @@ If you delegate more than one roll worth of XTZ, or if your delegation overlaps 
 
 If you delegation brings us over the threshold of 5 rolls (40,000 XTZ), then we will apply a rule of proportionality between the discounted fee and the standard fee yet to be determined. The resulting fee will be lower than our standard rate, and may fluctuate over time. To lock in a fixed rate for life, **delegate now!**
 
+The discounted rate only applies to the initial stake during launch, and the natural increase of the stake over time. If you add a large staking amount later on an address subject to the discounted fee, we may change your rate.
+
 Once we reach the limit of 5 rolls, we will post the resulting addresses and their associated fees as an update on our website.
 
-The Super Launch Discount is subject to the [terms and conditions](terms-and-conditions), please read them carefully.
+The Super Launch Discount is subject to the [terms and conditions](terms-and-conditions.html), please read them carefully.
