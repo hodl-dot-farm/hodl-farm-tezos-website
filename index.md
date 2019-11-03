@@ -35,7 +35,7 @@ Enter your Tezos address here:
 
 <style>
 input[type="text"] {
-    width: 500px;
+    width: 80%;
     height: 25px;
 }
 button {
