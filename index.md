@@ -22,7 +22,7 @@ Do not send funds to this address! [Learn more](faq.html#what-is-delegation-).
 
 A Tezos cycle lasts about three days. You need to delegate to us for **two full cycles** to get your first payout. Payouts then come regularly every three days until you stop delegating.
 
-For example, if you delegate to us in the middle of cycle 475, your first payout will be at the end of cycle 477.
+For example, if you delegate to us in the middle of cycle 475, your first payout will be at the end of cycle 477. [Learn more](faq.html#how-do-payouts-work-).
 
 Most delegation services make you wait 7 to 12 cycles. Why wait for weeks ? **Use hodl.farm and get your payout faster !**
 

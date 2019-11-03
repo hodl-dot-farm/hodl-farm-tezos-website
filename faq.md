@@ -20,11 +20,29 @@ Delegation is an operation on the blockchain that **does not change ownership** 
 
 In order to delegate, you must be in control of your XTZ address, which means that you own a private key which grants access to your assets. You must take precautions to protect your private key. Never send it to us, or anyone. We will never ask you for it.
 
-The most common protection is to use a hardware wallet such as Ledger or Trezor, or an offline, air-gapped device (running for example the AirGap app).
+The most common protection is to use a hardware wallet such as Ledger or Trezor, or an offline, air-gapped device (running for example the [AirGap app](https://airgap.it/)).
 
-Being in control of your address is like being your own bank. It gives you great powers, which come with great responsibility. When in doubt, do not attempt to delegate to us, leave your assets in a cryptocurrency website such as Coinbase.
+Being in control of your private keys is like being your own bank. It gives you great powers, which come with great responsibility. When in doubt, do not attempt to delegate to us, leave your assets in a cryptocurrency website such as Coinbase.
 
-For further reading, we recommend Ledger's [best practices when using a hardware wallet](https://www.ledger.com/academy/hardwarewallet/best-practices-when-using-a-hardware-wallet/). Read and ask yourself whether you want to go down that route. If yes, then buckle up and read on.
+For further reading, we recommend Ledger's [best practices when using a hardware wallet](https://www.ledger.com/academy/hardwarewallet/best-practices-when-using-a-hardware-wallet/).
+
+## How do payouts work ?
+
+We send your rewards to you as soon as we can calculate them.
+
+In the Tezos protocol, there is a grace period of two cycles from the moment when you delegate to us, to the moment when your delegation is taken into account by the protocol.
+
+As soon as this grace period is over (7.5 days later on average) we are able to calculcate how many rewards you deserve. We then pay them to you **immediately**.
+
+An interesting twist: since we pay rewards so early, we do not actually know what your fee is when the payment happens ! It takes us five extra cycles to know.
+
+The baking and endorsing rights are calculated 5 cycles in advance (15 days). As soon as they are known, we calculate the payouts in optimal conditions - that is, if every baker and delegator is online and every transaction get broadcast perfectly. But the actual rewards depend on the behaviour of evey baker in ways that are impossible to predict until the blocks are actually baked and finalized.
+
+Most bakers make you wait for the cycle to happen before they pay you, so they can accurately calculate the fee. We pay you based on an idealized fee which is **lower than the actual fee**.
+
+We use the amazing [Backerei](https://github.com/cryptiumlabs/backerei) software from Cryptium Labs, a group very involved in Tezos development. You can trust that your payout amounts are accurate.
+
+At hodl.farm, we insure liveness of our node and the whole network, so you can get the maximum payout that you deserve. Delegate to us today !
 
 ## How to delegate to you ?
 
@@ -70,7 +88,7 @@ If you delegate more than one roll worth of XTZ, or if your delegation overlaps 
 
 If you delegation brings us over the threshold of 5 rolls (40,000 XTZ), then we will apply a rule of proportionality between the discounted fee and the standard fee yet to be determined. The resulting fee will be lower than our standard rate, and may fluctuate over time. To lock in a fixed rate for life, **delegate now!**
 
-The discounted rate only applies to the initial stake during launch, and the natural increase of the stake over time. If you add a large staking amount later on an address subject to the discounted fee, we may change your rate.
+The discounted rate only applies to the initial stake, and the natural increase of the stake over time. If you add more stake later to the same address, we reserve the right to change your rate.
 
 Once we reach the limit of 5 rolls, we will post the resulting addresses and their associated fees as an update on our website.
 
