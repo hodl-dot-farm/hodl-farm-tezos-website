@@ -16,7 +16,7 @@ Use your wallet to set your delegate to the Hodl.farm address.
 
 Do not send funds to this address! [Learn more](faq.html#what-is-delegation-).
 
-## 2. Wait for one cycle
+## 2. Wait
 
 **It takes only 7.5 days on average to get your first payout.**
 
