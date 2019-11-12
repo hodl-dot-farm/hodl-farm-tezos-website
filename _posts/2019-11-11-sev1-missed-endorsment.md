@@ -41,11 +41,15 @@ Subsequent endorsment were successful, so we are facing a transient communicatio
 
 ## Attempt to reproduce
 
+The app is [Tezos Baker](https://github.com/obsidiansystems/ledger-app-tezos) by Obsidian Systems, however we believe the issue is at lower level, with the USB driver.
+
 The following command acts very similarly to a signature request: it connects to the ledger, verifies that the baking app is active, and checks that the baking key and path is what we expect. We run it in a loop every 10 seconds until something happens:
 
 ```
 while tezos-signer get ledger authorized path for ledger_tezos; do sleep 5; done | ts | tee /tmp/ledgertest.txt
 ```
+
+We believe that this exercises the system in the same way than actual signatures do, because it actually sends instructions to the app on the Ledger and waits for a response.
 
 About 30 minutes later, we get the error:
 
