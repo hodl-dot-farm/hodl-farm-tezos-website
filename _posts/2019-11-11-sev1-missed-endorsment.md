@@ -76,6 +76,8 @@ This time, the kernel logs (`dmesg`) show an USB disconnect/reconnect event:
 [2651884.117736] hid-generic 0003:2C97:0001.0009: hiddev96,hidraw0: USB HID v1.11 Device [Ledger Nano S] on usb-3f980000.usb-1.2/input0
 ```
 
+The Ledger itself does not reset: it stays online, and it remains in the signer app. I do not need to re-enter PIN. So it is not really disconnecting like the OS claims.
+
 lsusb shows that the device number has incremented:
 
 ```
@@ -83,6 +85,8 @@ tezos@raspberrypi:~ $ lsusb
 Bus 001 Device 005: ID 12d1:14dc Huawei Technologies Co., Ltd. E33372 LTE/UMTS/GSM HiLink Modem/Networkcard
 Bus 001 Device 011: ID 2c97:0001
 ```
+
+## Without LTE dongle
 
 We reboot without the Huawei LTE dongle and redo the test.
 
@@ -95,6 +99,8 @@ Nov 11 22:56:44 - client.signer.ledger: Transport level error:
 Error:
   Found no ledger corresponding to ledger://redacted with filter "App = Baking".
 ```
+
+The `get ledger authorized path` command is normally snappy, but when I am in that state it can take a very long time for the command to return.
 
 We observe the following in dmesg:
 
@@ -111,9 +117,7 @@ We observe the following in dmesg:
 
 We note that this message appeared after I ran the command manually one more time. When the loop exited, there was no disconnect yet.
 
-Also, when that happens, the Ledger does not reset: it stays online, and it remains in the signer app. So it is not really disconnecting like the OS claims.
-
-# Without the UPS hat
+## Without the UPS hat
 
 We try again without the UPS hat just to rule out anything fishy going on with it.
 
