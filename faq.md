@@ -26,6 +26,18 @@ Being in control of your private keys is like being your own bank. It gives you 
 
 For further reading, we recommend Ledger's [best practices when using a hardware wallet](https://www.ledger.com/academy/hardwarewallet/best-practices-when-using-a-hardware-wallet/).
 
+## What is the annual return on investment ?
+
+In theory, the Tezos network inflation rate is 5.51%, as explained by the [Tezos official documentation](https://tezos.gitlab.io/whitedoc/proof_of_stake.html#inflation).
+
+We are currently charing a 6.5% fee, which means that the theoretical yearly increase of your balance is (100 - 6.5) * 5.51% = **5.15%**.
+
+Please note however that the actual return on investment is related to the amount of rewards that the network grants us at every cycle. These rewards depend on the behaviour of every baker, not just us.
+
+We insure the liveliness of our own node but not the entire network. So the actual return on investment is lower than the nominal one.
+
+Use our payout page to see the actual rate that we charge you at every cycle.
+
 ## How do payouts work ?
 
 We send your rewards to you as soon as we can calculate them.
@@ -43,6 +55,14 @@ Most bakers make you wait for the cycle to happen before they pay you, so they c
 We use the amazing [Backerei](https://github.com/cryptiumlabs/backerei) software from Cryptium Labs, a group very involved in Tezos development. You can trust that your payout amounts are accurate.
 
 At hodl.farm, we insure liveness of our node and the whole network, so you can get the maximum payout that you deserve. Delegate to us today !
+
+## Why are my payouts so irregular ?
+
+We are a small baker. At the beginning of evey cycle, the network decides which slots we get to bake or endorse. These amount of slots are proportional to the number of rolls that we are responsible for. But there is a luck component.
+
+You may see big swings from one cycle to the other (from 50% to 200% or more). But over a long period of time, it evens out.
+
+Larger bakers have more consistent payouts because they have a large number of rolls. But rest assured that we pay you your fair share !
 
 ## How to delegate to you ?
 
@@ -71,14 +91,14 @@ Yes. To our knowledge, we are the first Babylon-native baker.
 
 Here is the fee you will be getting by taking advantage of the Super Launch Discount:
 
-* right now our staking balance is 8,000 XTZ (one roll)
-* if you are amongst our first delegators, you will get a **5% fee** until you stop delegating to us. This offer is valid until our staking balance (the total amount of XTZ delegated to us) reaches 2 rolls (16,000 XTZ of delegated funds).
-* if you delegate after we reach that first threshold, you get added to the next tier: until we reach 3 rolls of staking balance (up to 24,000 XTZ), you will get a **6.5% fee** until you stop delegating to us
+* our first delegators have unlocked a **5% fee** until they stop delegating to us. This offer is no longer valid.
+* right now our staking balance is at two rolls
+* until we reach 3 rolls of staking balance (up to 24,000 XTZ), you will get a **6.5% fee** until you stop delegating to us
 * if you delegate to us while our staking balance is between 3 and 5 rolls (24,000 XTZ to 40,000 XTZ), you will get a **8% fee** until you stop delegating to us
 
 Any delegate after we reach 5 rolls will get our standard rate yet to be determined, and which may fluctuate over time.
 
-Tezos baking and endorsing rights depends on how many "rolls" a baker has. A roll amounts to 8000 tezzies.
+Tezos baking and endorsing rights depends on how many "rolls" a baker has. A roll amounts to 8000 XTZ.
 
 The more you delegate to us, the more rolls we have, and the more we can bake !
 
