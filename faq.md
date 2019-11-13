@@ -81,7 +81,7 @@ We have built several layers of redundancy in the system, we have performed sign
 
 ## How can I contact you ?
 
-Please get in touch by email at hello@hodl.farm. Telegram channel is coming soon.
+Please get in touch by email at hello@hodl.farm, Twitter [@hodl_farm](https://twitter.com/hodl_farm) or Telegram [t.me/hodl_farm](https://t.me/hodl_farm).
 
 ## Do you support the Babylon Tezos update ?
 
