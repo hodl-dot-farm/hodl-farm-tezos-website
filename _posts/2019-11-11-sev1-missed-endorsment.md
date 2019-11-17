@@ -127,8 +127,33 @@ We try again without the UPS hat just to rule out anything fishy going on with i
 
 Sure enough, the same thing happens after 2 hours 45 minutes.
 
-# Next steps
+## Ledger support
 
-I opened a case with Ledger.
+We opened a case with Ledger.
+
+They advised to try:
+
+```
+- Disconnect and reconnect your device
+- Use another USB2.0 port
+- Change your cable to another USB2.0 data cable and the original Ledger cable
+- Retry on another PC
+```
 
 I also ordered a Raspberry Pi 4 to see whether USB is more reliable than the current Raspberry Pi 3.
+
+## Raspberry Pi 4
+
+We ordered a Raspberry Pi 4, I just extracted and inserted the SD card into the new Pi, and everything just worked.
+
+We connected the Ledger to the USB 3 port, then ran the same test:
+
+```
+while tezos-signer get ledger authorized path for ledger_tezos; do sleep 5; done | ts | tee /tmp/ledgertest.txt
+```
+
+It has been running now for 24 hours and has not failed.
+
+## Finally
+
+We ordered another Raspberry Pi 4 so both our signers will never loose connectivity to their Ledger again ! Thanks for reading.
