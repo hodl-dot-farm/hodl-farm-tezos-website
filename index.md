@@ -5,7 +5,7 @@ layout: about
 <script src="{{ base.url | prepend: site.url }}/assets/js/clipboard-polyfill.promise.js"></script>
 We are a fast, reliable and secure Tezos delegation service with a low intro fee and quick payouts.
 
-<span style="color:#bf0000;font-weight:bold;">Super Launch Discount ! Contribute to our first five rolls and get a fee as low as 6.5% for life ! </span> [See conditions](faq.html#what-are-the-terms-of-your-super-launch-discount-).
+<span style="color:#bf0000;font-weight:bold;">Super Launch Discount ! Contribute to our first five rolls and get a fee as low as 8% for life ! </span> [See conditions](faq.html#what-are-the-terms-of-your-super-launch-discount-).
 
 ## 1. Set your delegate to Hodl.farm
 

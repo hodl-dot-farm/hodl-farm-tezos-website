@@ -141,7 +141,7 @@ Nov 16 00:17:00 raspberrypi autossh[19515]: Warning: remote port forwarding fail
 
 And so on so forth, the client keeps trying to connect and it always fails with the same error message: remote port forwarding failed.
 
-We have a clear problem, that the client watches the ssh connection for timeouts, but the server does not do that, so it keeps the forwarded port bound until the tcp session times out !
+We have a clear problem: the client probes the ssh server for timeouts, but the server does not probe the client, so it keeps the forwarded port bound until the tcp session times out !
 
 The solution seems to be to configure ssh daemon (on the Cloud side) with ClientAliveInterval = 10 so it kills the ssh daemon (and frees the ports !) after 3 unresponsive pings, or 30 seconds.
 

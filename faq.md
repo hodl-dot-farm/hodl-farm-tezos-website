@@ -91,10 +91,8 @@ Yes. To our knowledge, we are the first Babylon-native baker.
 
 Here is the fee you will be getting by taking advantage of the Super Launch Discount:
 
-* our first delegators have unlocked a **5% fee** until they stop delegating to us. This offer is no longer valid.
-* right now our staking balance is at two rolls
-* until we reach 3 rolls of staking balance (up to 24,000 XTZ), you will get a **6.5% fee** until you stop delegating to us
-* if you delegate to us while our staking balance is between 3 and 5 rolls (24,000 XTZ to 40,000 XTZ), you will get a **8% fee** until you stop delegating to us
+* our first delegators have unlocked a **5% or 6.50% fee** until they stop delegating to us. This offer is no longer valid.
+* right now our staking balance is at three rolls. If you delegate to us while our staking balance is under 5 rolls (40,000 XTZ), you will get a **8% fee** until you stop delegating to us
 
 Any delegate after we reach 5 rolls will get our standard rate yet to be determined, and which may fluctuate over time.
 
@@ -104,9 +102,7 @@ The more you delegate to us, the more rolls we have, and the more we can bake !
 
 To determine which roll your delegation is a part of, we rely on the amount at the time of delegation based on the blockchain history. See our [delegation page on tezblock](https://mvp.tezblock.io/account/tz1gg5bjopPcr9agjamyu9BbXKLibNc2rbAq).
 
-If you delegate more than one roll worth of XTZ, or if your delegation overlaps between two rolls, we will apply a rule of proportionality to determine your fee. For example, if our staking balance is currently 2 rolls (16,000 XTZ), and you delegate two rolls worth of XTZ (16,000 XTZ) at once to us, your fee will be 7.125% (6.5% for one roll and 8% for the other).
-
-If you delegation brings us over the threshold of 5 rolls (40,000 XTZ), then we will apply a rule of proportionality between the discounted fee and the standard fee yet to be determined. The resulting fee will be lower than our standard rate, and may fluctuate over time. To lock in a fixed rate for life, **delegate now!**
+If you delegation brings us over the threshold of 5 rolls (40,000 XTZ), then we will apply a rule of proportionality between the discounted 8% fee and the standard fee yet to be determined. The resulting fee will be lower than our standard rate, and may fluctuate over time. To lock in a fixed rate for life, **delegate now!**
 
 The discounted rate only applies to the initial stake, and the natural increase of the stake over time. If you add more stake later to the same address, we reserve the right to change your rate.
 
