@@ -30,7 +30,7 @@ For further reading, we recommend Ledger's [best practices when using a hardware
 
 In theory, the Tezos network inflation rate is 5.51%, as explained by the [Tezos official documentation](https://tezos.gitlab.io/whitedoc/proof_of_stake.html#inflation).
 
-We are currently charing a 6.5% fee, which means that the theoretical yearly increase of your balance is (100 - 6.5) * 5.51% = **5.15%**.
+We are currently charging a 6.5% fee, which means that the theoretical yearly increase of your balance is (100 - 6.5) * 5.51% = **5.15%**.
 
 Please note however that the actual return on investment is related to the amount of rewards that the network grants us at every cycle. These rewards depend on the behaviour of every baker, not just us.
 
