@@ -89,23 +89,6 @@ Yes. To our knowledge, we are the first Babylon-native baker.
 
 ## What are the terms of your Super Launch Discount ?
 
-Here is the fee you will be getting by taking advantage of the Super Launch Discount:
-
-* our first delegators have unlocked a **5% or 6.50% fee** until they stop delegating to us. This offer is no longer valid.
-* right now our staking balance is at three rolls. If you delegate to us while our staking balance is under 5 rolls (40,000 XTZ), you will get a **8% fee** until you stop delegating to us
-
-Any delegate after we reach 5 rolls will get our standard rate yet to be determined, and which may fluctuate over time.
-
-Tezos baking and endorsing rights depends on how many "rolls" a baker has. A roll amounts to 8000 XTZ.
-
-The more you delegate to us, the more rolls we have, and the more we can bake !
-
-To determine which roll your delegation is a part of, we rely on the amount at the time of delegation based on the blockchain history. See our [delegation page on tezblock](https://mvp.tezblock.io/account/tz1gg5bjopPcr9agjamyu9BbXKLibNc2rbAq).
-
-If you delegation brings us over the threshold of 5 rolls (40,000 XTZ), then we will apply a rule of proportionality between the discounted 8% fee and the standard fee yet to be determined. The resulting fee will be lower than our standard rate, and may fluctuate over time. To lock in a fixed rate for life, **delegate now!**
-
-The discounted rate only applies to the initial stake, and the natural increase of the stake over time. If you add more stake later to the same address, we reserve the right to change your rate.
-
-Once we reach the limit of 5 rolls, we will post the resulting addresses and their associated fees as an update on our website.
+Our fee is currently at 5%. We may increase it in the future. However, to celebrate our early delegates, we are hereby committing to never increasing the fee of these who contribute to our first five rolls. Delegate now !
 
 The Super Launch Discount is subject to the [terms and conditions](terms-and-conditions.html), please read them carefully.

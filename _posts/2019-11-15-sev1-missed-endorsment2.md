@@ -182,3 +182,7 @@ tezos-remote-signer-forwarder Accepted publickey for signer from 10.0.96.31 port
 ## Baker node init container
 
 Pushed a fix to not require the signer to be online at every boot. It's only required for the first ever boot of the baker, but any subsequent boots will disregard absence of the signer until it is actually time to sign.
+
+## Further reflections on Kubernetes
+
+It is apparent that the root cause of this issue is the container dying. In the kubernetes world, pods are ephemeral, and the role of the orchestrator is to ensure one pod is always running.
