@@ -1,7 +1,6 @@
-
 ---
 layout: post
-title:  "2019-11-08 Incident: missed endorsment"
+title:  "2019-11-15 Incident: missed endorsment"
 ---
 
 ## Incident report
@@ -186,3 +185,12 @@ Pushed a fix to not require the signer to be online at every boot. It's only req
 ## Further reflections on Kubernetes
 
 It is apparent that the root cause of this issue is the container dying. In the kubernetes world, pods are ephemeral, and the role of the orchestrator is to ensure one pod is always running.
+
+This does not work so well when the orchestrator decides to bounce the baker pod right when it is their turn, and it takes the baker offline for 5 minutes until it reconverges.
+
+We have a few avenues to solve this problem:
+
+* turn the archive node into a regular storage node in case it is able to start and sync faster
+* configure exclusion windows to ensure pods do not get restarted at critical times
+
+But overall, the Kubernetes concept of just restarting a pod and load balancing everything does not fit nicely here. We may be able to solve that with a "portable" baking pod which hooks to a node that already has its connections established, but unfortunately since the node and the baker share memory, that does not work. One stated goal of this effort was to become good at Kubernetes, but if we become a really big baker, we will have to either reconsider Kubernetes or dramatically increase our control over pod lifecycle.
