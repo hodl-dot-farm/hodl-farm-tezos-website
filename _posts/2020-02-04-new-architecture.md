@@ -9,7 +9,11 @@ Our first iteration of the Tezos-on-GKE project had the payout pod connecting to
 
 We later added an additional full node in a separate cluster to monitor the entire baking operation using the excellent Tezos-network-monitor from Polychain Labs to get Slack and Pagerduty alerts when something goes wrong with the baking operations.
 
-The main reason to set up the monitoring node in a separate cluster is isolation. If your main cluster goes down, you do not want your monitoring cluster to go down as well and go blind ! It also protects from operational (human) error. The baking operations are of paramount importance, so if you work on the payout cluster, it remains operational no matter what. The baking cluster only concerns itself with baking and endorsing, all auxiliary operations like payout and website generation belong to the auxiliary cluster.
+The main reason to set up the monitoring node in a separate cluster is isolation. If your main cluster goes down, you do not want your monitoring cluster to go down as well and go blind ! It also protects from operational (human) error. The baking operations are of paramount importance, so if you work on the payout cluster, it remains operational no matter what.
+
+We realized that payouts, while important, are also less critical than the baking operations. So we moved the payouts outside of the baker cluster and into the monitoring cluster, which we renamed the "auxiliary" cluster.
+
+Now the baking cluster only concerns itself with baking and endorsing, all auxiliary operations like payout and website generation belong to the auxiliary cluster. The code is also separated more cleanly: if all you want is to set up a baker, you only need to deploy the tezos-on-gke codebase.
 
 Storage backends
 ----------------
@@ -44,9 +48,13 @@ As much as we love to give free money to our delegates, we have now implemented 
 
 The node has no API to query an answer to the question "Has a payout from X to Y been done during this cycle ?". An indexer is needed. Instead of hosting our own tezos indexer, we are using the superb api from tzstats. This way, no more double payouts ever ! Sorry !
 
-Next steps
-----------
+Probing for connection numbers
+------------------------------
 
-The terraform code in the tezos-on-gke and tezos-auxiliary-cluster are redundant, we need to move it to a terraform module and source it from both repos.
+The next recurring issue in the setup is that the connection count on the nodes often drops to zero or one. That means that the Tezos nodes are no longer part of the peer-to-peer network, even though from Kubernetes point of view they work fine.
 
-And the main missing piece of the setup is internal monitoring ! We got hit by an outage where the nodes connection count dropped to zero and the alerting node was offline as well. We need to deploy the prometheus observability framework and monitor node connection count and remote-signer-forwarder connection count, and manage alerts accordingly.
+This happens more often in the monitoring cluster, resulting in delayed payouts. It is interesing, since the monitoring cluster is less powerful than the baking cluster - it is using lower tier GCP virtual machines. It must be that the nodes are starved of resources. One easy way out would be to throw money at the problem, use beefier virtual machines and we would expect less cases where the nodes just loose all their connections. But we are all about baking on the cheap here, so an acceptable workaround is to rekick the nodes when they get into this state.
+
+To achieve that, we have introduced a liveness probe. It runs a shell script inside the Tezos node container, which queries the number of connections. When they drop below a threshold and stay at this threshold for a set amount of time, we kill the pod. Kubernetes then restarts it.
+
+This liveness probe has been deployed on cycle 198 on the monitoring/payout cluster, and since then, we have not had to restart the node manually, and payouts have been transferred on time, like clockwork, without any manual intervention. Hooray!
