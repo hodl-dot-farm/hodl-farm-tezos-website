@@ -63,7 +63,7 @@ snip
 
 This is not good ! It looks like the `--peer` option is cumulative even though I always pass the same argument.
 
-##Takeaways
+## Takeaways
 
 I observed the same problem where the number of connections goes to zero with the node in the monitoring cluster. The monitoring cluster runs on a twice smaller vm, and it happened more open. So intuitively, this issue is due to the node having insufficient resources.
 
@@ -80,7 +80,7 @@ Looking at the man page, the `--no-bootstrap-peer` option is promising:
 
 ```
 
-##corrective action
+## corrective action
 
 ### For issue 1 : number of connections drops
 
@@ -93,6 +93,8 @@ Checking that it works: it's hard to do since this condition does not happen oft
 ### For issue 2: private node does not connect to two public nodes
 
 We add the `--no-bootstrap-peer` option. We check config again by opening a shell, we no longer have the endless list. However, doing a rpc call, we still see only one connection !
+
+Commit: https://github.com/hodl-dot-farm/tezos-on-gke/commit/ae20ced8e2d82879f54658f0fac0f0dc00e6e433
 
 Looking further at the man page:
 
