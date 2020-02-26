@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2020-02-03 Incident: Missed endorsment"
+title:  "Cycle 197 Incident: Missed endorsments"
 ---
 
 Private node logs:
