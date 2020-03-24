@@ -58,4 +58,4 @@ button {
 
 [Frequently asked questions](faq.html)
 
-[See our account on Tezblock.io block explorer](https://tezblock.io/account/tz1gg5bjopPcr9agjamyu9BbXKLibNc2rbAq)
+[See our account on tzstats](https://tzstats.com/tz1gg5bjopPcr9agjamyu9BbXKLibNc2rbAq)
