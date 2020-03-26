@@ -40,3 +40,7 @@ Alice's rewards for cycle 315 are 1.1 XTZ. But for cycle 308, the finalized rewa
 And so on so forth. Every payout occuring during cycle N is the estimated rewards for cycle N+5 minus the debt for cycle N-1, until Alice stops delegating.
 
 ## Loophole
+
+The astute reader will have noticed a loophole in the description above ! As a delegator, you can stop delegating, then two cycles later, you will stop receiving payouts. It means that for three cycles, we will not be able to withhold debt, so you essentially walk away with free money!
+
+We estimate that this does not represent a significant issue. In fact, if you are motivated enough to move your funds to a new address every few weeks to pull out this attack, you deserve the extra XTZ !
