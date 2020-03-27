@@ -30,7 +30,7 @@ For further reading, we recommend Ledger's [best practices when using a hardware
 
 In theory, the Tezos network inflation rate is 5.51%, as explained by the [Tezos official documentation](https://tezos.gitlab.io/whitedoc/proof_of_stake.html#inflation).
 
-We are currently charging a 6.5% fee, which means that the theoretical yearly increase of your balance is (100 - 6.5) * 5.51% = **5.15%**.
+We are currently charging a 5% fee, which means that the theoretical yearly increase of your balance is (100 - 5)/100 * 5.51% = **5.23%**.
 
 Please note however that the actual return on investment is related to the amount of rewards that the network grants us at every cycle. These rewards depend on the behaviour of every baker, not just us.
 
@@ -82,13 +82,3 @@ We have built several layers of redundancy in the system, we have performed sign
 ## How can I contact you ?
 
 Please get in touch by email at hello@hodl.farm, Twitter [@hodl_farm](https://twitter.com/hodl_farm) or Telegram [t.me/hodl_farm](https://t.me/hodl_farm).
-
-## Do you support the Babylon Tezos update ?
-
-Yes. To our knowledge, we are the first Babylon-native baker.
-
-## What are the terms of your Super Launch Discount ?
-
-Our fee is currently at 5%. We may increase it in the future. However, to celebrate our early delegates, we are hereby committing to never increasing the fee of these who contribute to our first five rolls. Delegate now !
-
-The Super Launch Discount is subject to the [terms and conditions](terms-and-conditions.html), please read them carefully.
