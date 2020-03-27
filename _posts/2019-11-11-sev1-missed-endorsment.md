@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "2019-11-08 Incident: missed endorsment"
+title: "Incident: missed endorsement"
+date: "2019-11-08"
+category: Incidents
 ---
 
 ## Incident report

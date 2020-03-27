@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Incident: missed endorsement"
+date: "2019-02-16"
+category: Incidents
+---
+
 Signer is offline
 
 From the endorsing daemon

@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "2020-03-23 : Payout update"
+title:  "Payout model update"
+date: "2020-03-23"
+category: "Architectural Changes"
 ---
 
 Dear delegators,
@@ -17,7 +19,7 @@ So that's what we did. But since then, we have been bleeding money ! The rewards
 
 In reality, that does not happen. Network glitches occur. Bakers get offline. Blocks get stolen. By design, the less optimally the network performs, the least rewards everyone gets.
 
-Actual rewards are lower than expected rewards (or in the best case, equal). But by the time the actual rewards are known, you have already been paid ! Our nomimal fee is 5%, but effectively, you have been getting a lower fee than that. For some cycles, the fee has been negative even !
+Actual rewards are lower than expected rewards (or in the best case, equal). But by the time the actual rewards are known, you have already been paid ! Our nominal fee is 5%, but effectively, you have been getting a lower fee than that. For some cycles, the fee has been negative even !
 
 ## New model
 
@@ -37,7 +39,7 @@ Then, at the beginning of cycle 309, we calculate the rights for cycle 315. We a
 
 Alice's rewards for cycle 315 are 1.1 XTZ. But for cycle 308, the finalized rewards for Alice were 1.4 XTZ, but we paid her 1.5 XTZ for cycle 308 ! We withhold the additional 0.1 XTZ from the cycle 315's rewards, so the resulting payout in cycle 309 is 1.0 XTZ !
 
-And so on so forth. Every payout occuring during cycle N is the estimated rewards for cycle N+5 minus the debt for cycle N-1, until Alice stops delegating.
+And so on so forth. Every payout occurring during cycle N is the estimated rewards for cycle N+5 minus the debt for cycle N-1, until Alice stops delegating.
 
 ## Loophole
 

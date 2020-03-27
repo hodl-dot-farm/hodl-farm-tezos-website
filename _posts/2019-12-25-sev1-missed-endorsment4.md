@@ -1,5 +1,9 @@
-Missed endorsment
-=================
+---
+layout: post
+title: "Incident: missed endorsement"
+date: "2019-12-15"
+category: Incidents
+---
 
 Found private node with zero connections:
 
@@ -27,4 +31,4 @@ It seems that the CPU usage of the nodes has gone up.
 
 I put a CPU limit of zero on all containers of the cluster, and things fixed themselves. I found that one of the public nodes was very behind.
 
-Another lesson of k8s for blockchains on the cheap: when the node is low on resources, the default behaviour is to autoscale. Since we have disabled autoscaling, we must also disable CPU limits everywhere so the cluster will never put itself in a state where it should autoscale, but really stops working.
+Another lesson of k8s for blockchains on the cheap: when the node is low on resources, the default behavior is to autoscale. Since we have disabled autoscaling, we must also disable CPU limits everywhere so the cluster will never put itself in a state where it should autoscale, but really stops working.

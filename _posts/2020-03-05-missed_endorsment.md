@@ -1,4 +1,11 @@
-Missed endorsment 
+---
+layout: post
+title: "Incident: missed endorsement"
+date: "2019-03-05"
+category: Incidents
+---
+
+Missed endorsement 
  
 From the endorser 
  
@@ -102,7 +109,7 @@ me@peck ~/workspace/tezos () $ ./tezos-admin-client  is peer banned idr8ew6eoD2Z
 The given peer ID is not banned
 ```
 
-It just does not connect to the private node. I am wondering whether bi-directionnal communication should be established between public and private just to force connection.
+It just does not connect to the private node. I am wondering whether bi-directional communication should be established between public and private just to force connection.
 
 Trying by-directional connection
 --------------------------------
@@ -138,4 +145,4 @@ We still see:
 │ Mar  6 06:10:12 - p2p.maintenance: Too few connections (2)
 ```
 
-so we have to tweak params some more ! Setting min-connections to 1 and desired connections to 2, we get the expected behaviour : no logs when connections are 2, but logs are spewed when there are 0 or 1 connection.
+so we have to tweak params some more ! Setting min-connections to 1 and desired connections to 2, we get the expected behavior : no logs when connections are 2, but logs are spewed when there are 0 or 1 connection.
