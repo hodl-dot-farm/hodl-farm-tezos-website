@@ -1,5 +1,9 @@
-Missed endorsment
-=================
+---
+layout: post
+title: "Incident: missed endorsement"
+date: "2019-12-14"
+category: Incidents
+---
 
 Due to the tezos node auto-updating.
 

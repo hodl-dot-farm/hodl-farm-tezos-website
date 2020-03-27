@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "Cycle 197 Incident: Missed endorsments"
+title: "Cycle 197 Incident: missed endorsements"
+date: "2020-02-03"
+category: Incidents
 ---
 
 Private node logs:
@@ -130,4 +132,4 @@ Observed that public node after syncing gives the same COMPILATION ERROR with ca
 
 Corrective action:
 
-Upgraded the tezos conainers for the sentry nodes to the most recent version to attempt to eliminate the carthage issue. The error message indeed disappears.
+Upgraded the tezos containers for the sentry nodes to the most recent version to attempt to eliminate the carthage issue. The error message indeed disappears.

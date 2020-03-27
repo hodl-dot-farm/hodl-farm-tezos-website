@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "Cycle 203 incident : missed endorsment"
+title: "Cycle 203 incident: missed endorsement"
+date: "2020-02-20"
+category: Incidents
 ---
 
 On cycle 203 we missed an endorsement.

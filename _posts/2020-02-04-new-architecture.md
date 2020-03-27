@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "2020-02-04: Architecture update"
+title: "Architecture update"
+date: "2020-02-04"
+category: "Architectural Changes"
 ---
 
 All hail the new Kubernetes baking infrastructure ! It comes baked in with operational knowledge learned by several months of operating a medium-sized baking operation.

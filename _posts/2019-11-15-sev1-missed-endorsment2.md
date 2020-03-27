@@ -1,15 +1,17 @@
 ---
 layout: post
-title:  "2019-11-15 Incident: missed endorsment"
+title: "Incident: missed endorsement"
+date: "2019-11-15"
+category: Incidents
 ---
 
 ## Incident report
 
-We missed an endorsment on block [695,414](https://tzstats.com/BMbgvXns9KwdaonHDppBLorQWg2jJS3zsoQZrr9frJeQG2YXUW5) on November 15th.
+We missed an endorsement on block [695,414](https://tzstats.com/BMbgvXns9KwdaonHDppBLorQWg2jJS3zsoQZrr9frJeQG2YXUW5) on November 15th.
 
 Regardless of how we perform, we pay you your share as if we were always baking and endorsing 100%. 
 
-That being said, every missed endorsment reflects poorly on us and we want to prevent this from reoccuring.
+That being said, every missed endorsement reflects poorly on us and we want to prevent this from reoccurring.
 
 ## Logs
 
