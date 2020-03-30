@@ -13,8 +13,8 @@ We are buiding on 6 months of production expertise being a delegator on the [Tez
 
 Our Kusama delegator address is :
 
-`D3bm5eAeiRezwZp4tWTX4sZN3u8nXy2Fo21U59smznYHu3F`  <a href="#!" onclick="clipboard.writeText('D3bm5eAeiRezwZp4tWTX4sZN3u8nXy2Fo21U59smznYHu3F');">⧉</a>
-{: style="color:gray; font-size: 140%; text-align: center;"}
+<code style="font-size:75%;">D3bm5eAeiRezwZp4tWTX4sZN3u8nXy2Fo21U59smznYHu3F</code>  <a href="#!" onclick="clipboard.writeText('D3bm5eAeiRezwZp4tWTX4sZN3u8nXy2Fo21U59smznYHu3F');">⧉</a>
+{: style="color:gray; text-align: center;"}
 
 [See us on Polkascan](https://polkascan.io/pre/kusama/account/D3bm5eAeiRezwZp4tWTX4sZN3u8nXy2Fo21U59smznYHu3F)
 
