@@ -5,7 +5,7 @@ layout: about
 <script src="{{ base.url | prepend: site.url }}/assets/js/clipboard-polyfill.promise.js"></script>
 We are very excited about the upcoming release of the [Polkadot Network](https://polkadot.network)!
 
-For now we are waiting to become a delegator on the [Kusama canary network](https://kusama.network/) in preparation for the launch.
+For now we are delegating on the [Kusama canary network](https://kusama.network/) in preparation for the launch. Our fee is **8%**.
 
 We are buiding on 6 months of production expertise being a delegator on the [Tezos mainnet](xtz.html). Our infrastructure is secure, geographically distributed and redundant.
 
