@@ -59,5 +59,6 @@ button {
 [Frequently asked questions](faq.html)
 
 [See our account on tzstats](https://tzstats.com/tz1gg5bjopPcr9agjamyu9BbXKLibNc2rbAq)
+[See our account on tzkt.io](https://tzkt.io/tz1gg5bjopPcr9agjamyu9BbXKLibNc2rbAq)
 
 [Blog Posts](blog)
