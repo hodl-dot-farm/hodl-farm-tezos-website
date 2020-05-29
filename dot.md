@@ -24,3 +24,12 @@ Our Polkadot delegator address is:
 ## Kusama
 
 Follow the [Kusama nominator guide](https://wiki.polkadot.network/docs/en/mirror-maintain-guides-how-to-nominate-kusama).
+
+Our Kusama delegator address is :
+
+<code style="font-size:75%;">D3bm5eAeiRezwZp4tWTX4sZN3u8nXy2Fo21U59smznYHu3F</code>  <a href="#!" onclick="clipboard.writeText('D3bm5eAeiRezwZp4tWTX4sZN3u8nXy2Fo21U59smznYHu3F');">⧉</a>
+{: style="color:gray; text-align: center;"}
+
+[See us on Polkascan](https://polkascan.io/pre/kusama/account/D3bm5eAeiRezwZp4tWTX4sZN3u8nXy2Fo21U59smznYHu3F)
+
+[See us on Polkadot.js](https://polkadot.js.org/apps/#/staking/query/D3bm5eAeiRezwZp4tWTX4sZN3u8nXy2Fo21U59smznYHu3F)
