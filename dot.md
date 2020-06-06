@@ -3,7 +3,7 @@ layout: about
 ---
 
 <script src="{{ base.url | prepend: site.url }}/assets/js/clipboard-polyfill.promise.js"></script>
-We are [Polkadot](https://polkadot.network) and [Kusama](https://kusama.network/) validators. Our fee is 8%.
+We are [Polkadot](https://polkadot.network) and [Kusama](https://kusama.network/) validators. Our fee is 3%.
 
 We are buiding on a year of production expertise being a delegator on the [Tezos mainnet](xtz.html). Our infrastructure is secure, geographically distributed and redundant.
 
