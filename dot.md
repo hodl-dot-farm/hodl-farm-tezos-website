@@ -7,15 +7,21 @@ We are [Polkadot](https://polkadot.network) and [Kusama](https://kusama.network/
 
 We are buiding on a year of production expertise being a delegator on the [Tezos mainnet](xtz.html). Our infrastructure is secure, geographically distributed and redundant.
 
-Careless validators may cause your funds to be slashed. Don't risk it! Nominate us.
+We maintain the [Polkadot-k8s](https://github.com/midl-dev/polkadot-k8s) project. Nominate us for timely payouts and unmatched reliability!
+
+Look for our validators in the Polkadot UI:
+
+![Hodl.farm logo](/assets/hodl_polkadot_screenshot.png)
 
 ## Polkadot
 
 See the [Polkadot nominator guide](https://wiki.polkadot.network/docs/en/maintain-nominator).
 
-Our Polkadot delegator address is:
+Our Polkadot delegator addresses are:
 
 <code style="font-size:75%;">1sAkfdTH3cHAdJRYqMPNdeV7GhTKrddvMfkQrm3pQBABWrN</code>  <a href="#!" onclick="clipboard.writeText('1sAkfdTH3cHAdJRYqMPNdeV7GhTKrddvMfkQrm3pQBABWrN');">⧉</a>
+
+<code style="font-size:75%;">13jN7oYuc8TBcUwGjpjbSghvPE8DdEuArvjvymqTCB6Vkguc</code>  <a href="#!" onclick="clipboard.writeText('13jN7oYuc8TBcUwGjpjbSghvPE8DdEuArvjvymqTCB6Vkguc');">⧉</a>
 
 [See us on Polkascan](https://polkascan.io/polkadot-cc1/account/1sAkfdTH3cHAdJRYqMPNdeV7GhTKrddvMfkQrm3pQBABWrN)
 
