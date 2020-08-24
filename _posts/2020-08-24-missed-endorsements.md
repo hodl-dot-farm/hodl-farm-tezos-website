@@ -117,7 +117,7 @@ user-agent: ocaml-cohttp/2.5.1
 x-forwarded-for: 10.0.92.102
 
 57
-"027a06a7706fd6e65dff9b9be8170138d5cdb6c5358ab64c94391c7a0fb3c478a32e940041000010c16e"
+"027a06a7706fd6e65dff9b9be8170140041000010c16e"
 
 0
 
@@ -125,7 +125,7 @@ HTTP/1.1 200 OK
 content-length: 116
 content-type: application/json
 
-{"signature":"edsigthTtE3EbpPbd5rgWNuBfqYGFsv6eCSZEoFrorFz7HYmrH2YVDmiGfS9PsxRQGBdqNC8bVR8p5SaCR7GgYz7nRXf3SuKd8f"}
+{"signature":"edsigthTtE3EbpPbd5VR8p5SaCR7GgYz7nRXf3SuKd8f"}
 GET /keys/tz1gg5bjopPcr9agjamyu9BbXKLibNc2rbAq HTTP/1.0
 Connection: close
 
@@ -136,6 +136,8 @@ content-type: application/json
 {"public_key":"edpkunnxQ7SD7pVorY4Gi1UWAS37R2vXogzU4MBQiofMqoyNYk2yYJ"}
 
 ```
+
+(redacted some parts of the signature)
 
 We replay it to the flask app using nc locally. There are issues with encoded chunks, so we can't replicate the issue. Trying something else.
 
