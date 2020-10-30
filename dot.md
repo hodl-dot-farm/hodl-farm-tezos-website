@@ -5,7 +5,7 @@ layout: about
 <script src="{{ base.url | prepend: site.url }}/assets/js/clipboard-polyfill.promise.js"></script>
 We are [Polkadot](https://polkadot.network) and [Kusama](https://kusama.network/) validators. **Our fee is currently 0%**.
 
-We are buiding on a year of production expertise being a delegator on the [Tezos mainnet](xtz.html). Our infrastructure is secure, geographically distributed and redundant.
+Our infrastructure is secure, geographically distributed and redundant. **Our payouts are automated** so you never have to worry about getting your due!
 
 We maintain the [Polkadot-k8s](https://github.com/midl-dev/polkadot-k8s) project. Nominate us for timely payouts and unmatched reliability!
 
