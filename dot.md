@@ -3,7 +3,7 @@ layout: about
 ---
 
 <script src="{{ base.url | prepend: site.url }}/assets/js/clipboard-polyfill.promise.js"></script>
-We are [Polkadot](https://polkadot.network) and [Kusama](https://kusama.network/) validators. **Our fee is currently 0%**.
+We are [Polkadot](https://polkadot.network) and [Kusama](https://kusama.network/) validators. **Our fee is currently between 0% and 3%**.
 
 Our infrastructure is secure, geographically distributed and redundant. **Our payouts are automated** so you never have to worry about getting your due!
 
@@ -22,6 +22,8 @@ Our Polkadot delegator addresses are:
 <code style="font-size:75%;">1sAkfdTH3cHAdJRYqMPNdeV7GhTKrddvMfkQrm3pQBABWrN</code>  <a href="#!" onclick="clipboard.writeText('1sAkfdTH3cHAdJRYqMPNdeV7GhTKrddvMfkQrm3pQBABWrN');">⧉</a>
 
 <code style="font-size:75%;">13jN7oYuc8TBcUwGjpjbSghvPE8DdEuArvjvymqTCB6Vkguc</code>  <a href="#!" onclick="clipboard.writeText('13jN7oYuc8TBcUwGjpjbSghvPE8DdEuArvjvymqTCB6Vkguc');">⧉</a>
+
+<code style="font-size:75%;">11VR4pF6c7kfBhfmuwwjWY3FodeYBKWx7ix2rsRCU2q6hqJ</code>  <a href="#!" onclick="clipboard.writeText('11VR4pF6c7kfBhfmuwwjWY3FodeYBKWx7ix2rsRCU2q6hqJ');">⧉</a>
 
 [See us on Polkascan](https://polkascan.io/polkadot-cc1/account/1sAkfdTH3cHAdJRYqMPNdeV7GhTKrddvMfkQrm3pQBABWrN)
 
