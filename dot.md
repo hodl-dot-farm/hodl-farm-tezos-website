@@ -3,41 +3,29 @@ layout: about
 ---
 
 <script src="{{ base.url | prepend: site.url }}/assets/js/clipboard-polyfill.promise.js"></script>
-We are [Polkadot](https://polkadot.network) and [Kusama](https://kusama.network/) validators. **Our fee is currently between 0% and 3%**.
-
+We operate [Polkadot](https://polkadot.network) validators.
 Our infrastructure is secure, geographically distributed and redundant. **Our payouts are automated** so you never have to worry about getting your due!
 
-We maintain the [Polkadot-k8s](https://github.com/midl-dev/polkadot-k8s) project. Nominate us for timely payouts and unmatched reliability!
+Nominate us for timely payouts and unmatched reliability!
 
-Look for our validators in the Polkadot UI:
+[Click here](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fpolkadot-rpc.polkadot.io/#/staking/targets?filter=HODL.FARM) to open the Polkadot app with our validators pre-selected.
 
-![Hodl.farm logo](/assets/hodl_polkadot_screenshot.png)
+ **Our fee is currently between 0% and 3%**.
 
-## Polkadot
+### Minimum staking amount
 
-See the [Polkadot nominator guide](https://wiki.polkadot.network/docs/en/maintain-nominator).
+**There is a minimum funding requirement for nominating.** At the time of writing, it is 120 DOT. See [here](https://polkaview.network/dot) for the most recent figure.
 
-Our Polkadot delegator addresses are:
+If you have less than this amount, DO NOT nominate us - or anyone else. You will not get rewards! This [blog post from Polkadot](https://polkadot.network/polkadot-staking-an-update/) has more information.
 
-<code style="font-size:75%;">1sAkfdTH3cHAdJRYqMPNdeV7GhTKrddvMfkQrm3pQBABWrN</code>  <a href="#!" onclick="clipboard.writeText('1sAkfdTH3cHAdJRYqMPNdeV7GhTKrddvMfkQrm3pQBABWrN');">⧉</a>
+See the [Polkadot nominator guide](https://wiki.polkadot.network/docs/en/learn-nominator).
 
-<code style="font-size:75%;">13jN7oYuc8TBcUwGjpjbSghvPE8DdEuArvjvymqTCB6Vkguc</code>  <a href="#!" onclick="clipboard.writeText('13jN7oYuc8TBcUwGjpjbSghvPE8DdEuArvjvymqTCB6Vkguc');">⧉</a>
+### Validators
 
-<code style="font-size:75%;">11VR4pF6c7kfBhfmuwwjWY3FodeYBKWx7ix2rsRCU2q6hqJ</code>  <a href="#!" onclick="clipboard.writeText('11VR4pF6c7kfBhfmuwwjWY3FodeYBKWx7ix2rsRCU2q6hqJ');">⧉</a>
+Make sure to select several or all of our validators to make sure you get your rewards:
 
-[See us on Polkascan](https://polkascan.io/polkadot-cc1/account/1sAkfdTH3cHAdJRYqMPNdeV7GhTKrddvMfkQrm3pQBABWrN)
-
-[See us on Polkadot.js](https://polkadot.js.org/apps/#/staking/query/1sAkfdTH3cHAdJRYqMPNdeV7GhTKrddvMfkQrm3pQBABWrN)
-
-## Kusama
-
-Follow the [Kusama nominator guide](https://wiki.polkadot.network/docs/en/mirror-maintain-guides-how-to-nominate-kusama).
-
-Our Kusama delegator address is :
-
-<code style="font-size:75%;">D3bm5eAeiRezwZp4tWTX4sZN3u8nXy2Fo21U59smznYHu3F</code>  <a href="#!" onclick="clipboard.writeText('D3bm5eAeiRezwZp4tWTX4sZN3u8nXy2Fo21U59smznYHu3F');">⧉</a>
-{: style="color:gray; text-align: center;"}
-
-[See us on Polkascan](https://polkascan.io/pre/kusama/account/D3bm5eAeiRezwZp4tWTX4sZN3u8nXy2Fo21U59smznYHu3F)
-
-[See us on Polkadot.js](https://polkadot.js.org/apps/#/staking/query/D3bm5eAeiRezwZp4tWTX4sZN3u8nXy2Fo21U59smznYHu3F)
+| <!-- --> |  <!-- --> |  <!-- -->  | <!-- --> | 
+|----------|-----------|------------|----------|
+| <code style="font-size:75%;">1sAkfdTH3cHAdJRYqMPNdeV7GhTKrddvMfkQrm3pQBABWrN</code>  <a href="#!" onclick="clipboard.writeText('1sAkfdTH3cHAdJRYqMPNdeV7GhTKrddvMfkQrm3pQBABWrN');">⧉</a> | HODL.FARM A | [Polkascan](https://polkascan.io/polkadot-cc1/account/1sAkfdTH3cHAdJRYqMPNdeV7GhTKrddvMfkQrm3pQBABWrN) | [Polkadot.js](https://polkadot.js.org/apps/#/staking/query/1sAkfdTH3cHAdJRYqMPNdeV7GhTKrddvMfkQrm3pQBABWrN) |
+| <code style="font-size:75%;">13jN7oYuc8TBcUwGjpjbSghvPE8DdEuArvjvymqTCB6Vkguc</code>  <a href="#!" onclick="clipboard.writeText('13jN7oYuc8TBcUwGjpjbSghvPE8DdEuArvjvymqTCB6Vkguc');">⧉</a> | HODL.FARM B | [Polkascan](https://polkascan.io/polkadot-cc1/account/13jN7oYuc8TBcUwGjpjbSghvPE8DdEuArvjvymqTCB6Vkguc) | [Polkadot.js](https://polkadot.js.org/apps/#/staking/query/13jN7oYuc8TBcUwGjpjbSghvPE8DdEuArvjvymqTCB6Vkguc) |
+| <code style="font-size:75%;">13jN7oYuc8TBcUwGjpjbSghvPE8DdEuArvjvymqTCB6Vkguc</code>  <a href="#!" onclick="clipboard.writeText('11VR4pF6c7kfBhfmuwwjWY3FodeYBKWx7ix2rsRCU2q6hqJ');">⧉</a> | HODL.FARM C | [Polkascan](https://polkascan.io/polkadot-cc1/account/11VR4pF6c7kfBhfmuwwjWY3FodeYBKWx7ix2rsRCU2q6hqJ) | [Polkadot.js](https://polkadot.js.org/apps/#/staking/query/11VR4pF6c7kfBhfmuwwjWY3FodeYBKWx7ix2rsRCU2q6hqJ) |
