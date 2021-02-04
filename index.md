@@ -2,9 +2,7 @@
 layout: about
 ---
 
-Welcome to our staking services!
-
-Please pick your currency:
+Welcome to our cryptocurrency staking services! Please pick your favourite token:
 
 ## Polkadot (DOT)
 
