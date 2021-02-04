@@ -2,8 +2,9 @@
 layout: about
 ---
 
+<span style="color:#bf0000;font-weight:bold;">We operate Kusama validators since 2020!</span>
+
 <script src="{{ base.url | prepend: site.url }}/assets/js/clipboard-polyfill.promise.js"></script>
-We operate [Kusama](https://kusama.network/) validators.
 Our infrastructure is secure, geographically distributed and redundant. **Our payouts are automated** so you never have to worry about getting your due!
 
 **Our fee is currently between 0% and 5%**. Nominate us for timely payouts and unmatched reliability!

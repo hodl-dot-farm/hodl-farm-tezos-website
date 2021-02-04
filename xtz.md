@@ -5,7 +5,7 @@ layout: about
 <script src="{{ base.url | prepend: site.url }}/assets/js/clipboard-polyfill.promise.js"></script>
 We are a fast, reliable and secure Tezos delegation service with a **5% fee** and quick payouts.
 
-<span style="color:#bf0000;font-weight:bold;">Open for delegations since Babylon !</span>
+<span style="color:#bf0000;font-weight:bold;">Open for delegations since 2019!</span>
 
 ## 1. Set your delegate to Hodl.farm
 
