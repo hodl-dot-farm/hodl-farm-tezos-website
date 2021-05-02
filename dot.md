@@ -8,15 +8,9 @@ layout: about
 
 Our infrastructure is secure, geographically distributed and redundant. **Our payouts are automated** so you never have to worry about getting your due!
 
-**Our fee is currently between 0% and 3%**. Nominate us for timely payouts and unmatched reliability!
+**Our fee is currently between 0.8%**. Nominate us for timely payouts and unmatched reliability!
 
 [Click here](https://polkadot.js.org/apps/#/staking/targets?rpc=wss%3A%2F%2Frpc.polkadot.io&filter=%F0%9F%90%91%20HODL.FARM%20%F0%9F%90%91) to nominate us using the Polkadot web app. For more details, see the [Polkadot nominator guide](https://wiki.polkadot.network/docs/en/learn-nominator).
-
-## Minimum staking amount
-
-**There is a minimum funding requirement for nominating.** At the time of writing, it is 120 DOT. See [here](https://polkaview.network/dot) for the most recent figure.
-
-If you have less than this amount, DO NOT nominate us - or anyone else. You will not get rewards! This [blog post from Polkadot](https://polkadot.network/polkadot-staking-an-update/) has more information.
 
 ## Validators
 

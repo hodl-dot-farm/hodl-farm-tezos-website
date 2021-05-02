@@ -7,7 +7,7 @@ layout: about
 <script src="{{ base.url | prepend: site.url }}/assets/js/clipboard-polyfill.promise.js"></script>
 Our infrastructure is secure, geographically distributed and redundant. **Our payouts are automated** so you never have to worry about getting your due!
 
-**Our fee is currently between 0% and 5%**. Nominate us for timely payouts and unmatched reliability!
+**Our fee is currently 3%**. Nominate us for timely payouts and unmatched reliability!
 
 [Click here](https://polkadot.js.org/apps/#/staking/targets?rpc=wss%3A%2F%2Fkusama-rpc.polkadot.io&filter=%F0%9F%90%91%20HODL.FARM%20%F0%9F%90%91) to nominate us using the Kusama web app. For more details, see the [nominator guide](https://wiki.polkadot.network/docs/en/learn-nominator).
 
